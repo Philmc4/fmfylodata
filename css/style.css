@@ -91,7 +91,7 @@ body {
 /* ///////// TYPOGRAPHY ////////// */
 
 .main-container {
-  background-image: url(/images/bg-desktop.png);
+  background-image: url("../images/bg-desktop.png");
   background-repeat: no-repeat;
   background-position: bottom;
   max-width: 1440px;
