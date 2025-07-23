@@ -1,0 +1,47 @@
+@media (max-width: 950px) {
+  .main-container {
+    max-width: 900px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    background-size: contain;
+    padding: 0 100px;
+    background-position: 50% 90%;
+  }
+  .usage-container {
+    min-height: 150px;
+    margin-top: 0px;
+  }
+  .storage-left {
+    top: 110px;
+    right: 175px;
+  }
+
+  .storage-left::before {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .main-container {
+    max-width: 900px;
+    min-height: 667px;
+    align-items: center;
+    background-size: cover;
+    padding: 0 20px;
+    background-position: center;
+    background-image: url(/images/bg-mobile.png);
+  }
+  .fylo-content {
+    max-width: 326px;
+  }
+  .usage-container {
+    max-width: 326px;
+    min-height: 144px;
+    margin-top: 0px;
+  }
+  .storage-left {
+    top: 110px;
+    right: 75px;
+  }
+}
